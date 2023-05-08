@@ -1,0 +1,132 @@
+body {
+    font-family: 'Rubik Dirt', cursive;
+    text-align: center;
+    background-color: #212529;
+}
+
+.companyName {
+    font-size: 3rem;
+    margin-left: 4rem;
+}
+
+.navigation-options {
+    justify-content: right;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+¡.last-option-navbar {
+    margin-right: 2rem;
+}
+
+.submenu {
+    margin-bottom: 4rem;
+}
+
+.menu-title {
+    color: #ffffff;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.subtitle {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.row-menu-image {
+    width: 80%;
+}
+
+.footer-container {
+    background-color: #212529;
+}
+
+.social-icon {
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: #ff6600;
+}
+
+.copyright-section {
+    color: #ff6600;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.facebook:hover {
+    color: #087cea;
+    transition: 0.5s;
+}
+
+.whatsapp:hover {
+    color: #25d366;
+    transition: 0.5s;
+}
+
+@media (max-width: 1400px) {
+    .subtitle {
+        font-size: 2.5rem;
+    }
+
+    .wings-menu-image{
+        width: 80%;
+    }
+
+    .row-menu-image {
+        width: 90%;
+    }
+
+    .drinks-menu-image {
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px){
+    .wings-menu-image{
+        width: 90%;
+    }
+
+    .row-menu-image {
+        width: 60%;
+    }
+
+    .drinks-menu-image {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px){
+    .menu-title{
+        font-size: 4rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .submenu {
+        margin-bottom: 0;
+    }
+
+    .wings-menu-image{
+        width: 90%;
+    }
+
+    .row-menu-image {
+        width: 80%;
+    }
+
+    .drinks-menu-image {
+        width: 80%;
+    }
+
+    .footer-container {
+        margin-top: 2rem;
+    }
+}

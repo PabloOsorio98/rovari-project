@@ -113,9 +113,17 @@ body {
     margin-top: 2rem;
 }
 
-.social-icon:hover {
-    color: #e88d32;
+.facebook:hover {
+    color: #087cea;
+    transition: 0.5s;
 }
+
+.whatsapp:hover {
+    color: #25d366;
+    transition: 0.5s;
+}
+
+
 
 @media (max-width: 1400px){
     .title-image {
